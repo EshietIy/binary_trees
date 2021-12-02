@@ -25,8 +25,8 @@ rheight++;
 rheight += binary_tree_height(tree->right);
 }
 if (lheight > rheight)
-return lheight;
+return (lheight);
 else
-return rheight;
+return (rheight);
 
 }
